@@ -1,0 +1,1 @@
+import{o as t,c as s,e as c,u as r}from"./065124e3.js";const n={__name:"block-pandastudio-vertical-space",props:{data:{type:Object}},setup(a){var e=a;return(o,p)=>(t(),s("div",{class:"pandastudio-vertical-space",style:c({height:`${r(e).data.height}px`})},null,4))}};export{n as default};

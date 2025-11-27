@@ -1,0 +1,1 @@
+import{_ as o,d as t,o as a,c as n}from"./065124e3.js";const c=t({name:"block-raw",props:{data:{type:Object}}}),_=["innerHTML"];function s(e,r,p,d,l,i){return a(),n("div",{innerHTML:e.data.html},null,8,_)}const m=o(c,[["render",s],["__scopeId","data-v-6343a2c8"]]);export{m as default};

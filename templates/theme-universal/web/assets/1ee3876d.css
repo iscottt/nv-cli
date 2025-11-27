@@ -1,0 +1,1 @@
+ol[data-v-f7b26a74],ul[data-v-f7b26a74]{padding-left:0;margin-top:0;margin-bottom:0}li[data-v-f7b26a74]{list-style:none;display:flex;line-height:1.8em;margin:2px 0}li[data-v-f7b26a74]:before{margin-right:.4em}ol[data-v-f7b26a74]{counter-reset:i}ol li[data-v-f7b26a74]:before{content:counters(i,".") ".";counter-increment:i}ul li[data-v-f7b26a74]:before{content:"•"}

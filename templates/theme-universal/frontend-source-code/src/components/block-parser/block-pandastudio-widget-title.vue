@@ -1,0 +1,52 @@
+<template>
+	<div
+	class="pandastudio-widget-title"
+	>
+		<div class="title" v-html="$props.data.text"></div>
+	</div>
+</template>
+<script setup>
+var $props = defineProps({
+	data: {
+		type: Object
+	}
+})
+</script>
+<style lang="less">
+.pandastudio-widget-title {
+	margin-top: 1.8em;
+	margin-bottom: 1.2em;
+	color: var(--primary-gray);
+	font-size: 1.0625em;
+	display: grid;
+	grid-template-columns: auto auto 1fr;
+	align-items: center;
+	text-shadow: -1px -1px var(--white-opacity-5), 2px 2px 2px var(--primary-gray-opacity-4);
+
+	&:before,.title:before {
+		content: "";
+		width: 3px;
+		display: block;
+		margin-right: 3px;
+		background: #000;
+		height: 0.85em;
+		background: var(--primary-color);
+		box-shadow: 1px 0 var(--analogous-color) inset, -1px -1px var(--white-opacity-7), 3px 3px 2px var(--primary-opacity-3);
+		transform: skew(-20deg);
+	}
+	&:after {
+		content: "";
+		height: 1px;
+		background: var(--primary-gray-opacity-2);
+		box-shadow: 0 1px var(--white-opacity-7);
+	}
+	.title {
+		display: flex;
+		column-gap: .5em;
+		align-items: center;
+		margin-right: .5em;
+	}
+}
+
+
+</style>

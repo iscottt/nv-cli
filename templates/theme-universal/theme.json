@@ -1,0 +1,9 @@
+{
+	"name": "playground",
+	"url": "",
+	"description": "nvPress5主题示例（含源代码）",
+	"version": "1.0.1",
+	"author": "PANDA Studio",
+	"author_url": "https://blog.panda-studio.cn",
+	"update_excludes": ["custom_functions.js"]
+}

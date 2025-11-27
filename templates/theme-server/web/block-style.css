@@ -1,0 +1,46 @@
+p.drop-cap:first-letter {
+	float: left;
+	font-size: 6em;
+	margin: .1em .1em 0 0;
+}
+.image-align-left {
+	text-align: left;
+}
+.image-align-center {
+	text-align: center;
+}
+.image-align-right {
+	text-align: right;
+}
+.image-align-full img {
+	width: 100%;
+}
+img.rounded {
+	border-radius: .5em;
+}
+img.shadow {
+	box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+table.width-footings > tbody > tr:last-child {
+	font-weight: bold;
+}
+table.layout-fixed {
+	table-layout: fixed;
+}
+hr {
+	height: 60px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	border: none;
+}
+hr:not(.hide-symbol):before{
+	display: inline-block;
+	content: "***";
+	font-size: 30px;
+	height: 30px;
+	line-height: 42px;
+	letter-spacing: .25em;
+	color: #000;
+	opacity: .75;
+}

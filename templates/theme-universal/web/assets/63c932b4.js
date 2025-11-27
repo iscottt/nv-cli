@@ -1,0 +1,1 @@
+import{o as a,c as s,a as n,u as o}from"./065124e3.js";const i={class:"pandastudio-widget-title"},c=["innerHTML"],r={__name:"block-pandastudio-widget-title",props:{data:{type:Object}},setup(t){var e=t;return(d,_)=>(a(),s("div",i,[n("div",{class:"title",innerHTML:o(e).data.text},null,8,c)]))}};export{r as default};

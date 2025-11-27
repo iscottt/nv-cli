@@ -1,0 +1,1 @@
+var e=document.createElement("div"),a=document.createElement("img");e.append(a);e.className="lightbox-wrapper";a.addEventListener("click",t=>{t.stopPropagation()});e.addEventListener("click",()=>{e.classList.remove("show"),setTimeout(()=>{e.remove()},500)});const o=t=>{a.src=t,document.body.append(e),setTimeout(()=>{e.classList.add("show")},50)};export{o as c};
