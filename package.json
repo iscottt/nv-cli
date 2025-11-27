@@ -1,5 +1,5 @@
 {
-  "name": "nv-cli",
+  "name": "@iscott/nv-cli",
   "version": "1.0.0",
   "description": "A beautiful CLI tool for generating editor blocks and universal plugins",
   "bin": {
